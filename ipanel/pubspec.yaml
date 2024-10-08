@@ -1,0 +1,33 @@
+name: ipanel
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  google_fonts: ^4.0.4
+  group_button: ^5.3.0
+
+  fast_color_picker: ^0.1.1
+  flutter_font_picker: ^1.0.0
+
+  flutter_riverpod: ^2.3.6
+
+  wakelock: ^0.6.2 # wakelockパッケージの追加
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
